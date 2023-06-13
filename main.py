@@ -36,9 +36,9 @@ with open("Nitro Codes.txt") as file:
         r = requests.get(url)
 
         if r.status_code == 200:
-            print(f" Valid | {nitro} ")
+            print(f" YES DONE | {nitro} ")
             break
         else:
-            print(f" Invalid | {nitro} ")
+            print(f" NO valid | {nitro} ")
 
 input("\nYou have generated, Now press enter to close this, you'll get valid codes in Valid Codes.txt if you see its empty then you got no luck, generate 20 million codes for luck or else.")
